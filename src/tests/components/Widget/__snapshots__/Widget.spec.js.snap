@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bar chart renders correctly 1`] = `
+<div
+  className="WidgetContainer"
+>
+  <div
+    className="WidgetContainer__options"
+  >
+    <select
+      onChange={[Function]}
+      value="bar"
+    >
+      <option
+        value="bar"
+      >
+        Bar
+      </option>
+      <option
+        value="line"
+      >
+        Line
+      </option>
+    </select>
+    <label>
+      Интервал обовления (мс):
+       
+      <input
+        onChange={[Function]}
+        value={1000}
+      />
+    </label>
+  </div>
+  <div
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Line chart renders correctly 1`] = `
+<div
+  className="WidgetContainer"
+>
+  <div
+    className="WidgetContainer__options"
+  >
+    <select
+      onChange={[Function]}
+      value="line"
+    >
+      <option
+        value="bar"
+      >
+        Bar
+      </option>
+      <option
+        value="line"
+      >
+        Line
+      </option>
+    </select>
+    <label>
+      Интервал обовления (мс):
+       
+      <input
+        onChange={[Function]}
+        value={1000}
+      />
+    </label>
+  </div>
+  <div
+    style={
+      Object {
+        "height": "100%",
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;
