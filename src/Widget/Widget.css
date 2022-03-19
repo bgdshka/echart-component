@@ -1,0 +1,9 @@
+.WidgetContainer {
+  width: 100%;
+}
+
+.WidgetContainer__options {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
