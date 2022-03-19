@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import EchartsWrapper from "../EchartsWrapper";
-import { apiCallMock } from "../../functions/api";
-import { convertSeriesToOption } from "../../functions/data";
 import "./Widget.css";
 
 /**

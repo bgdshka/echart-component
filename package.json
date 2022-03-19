@@ -16,8 +16,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test tests",
+    "eject": "react-scripts eject",
+    "screenshot-test-local": "cross-env SCREENSHOT_MODE=local jest -c src/jest.screenshot.config.js",
+    "screenshot-test-percy": "cross-env SCREENSHOT_MODE=percy percy exec -- jest -c src/jest.screenshot.config.js"
   },
   "eslintConfig": {
     "extends": [
@@ -36,5 +38,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "node-sass": "^7.0.1",
+    "react-screenshot-test": "^2.3.3"
   }
 }

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Widget from "./components/Widget";
 import { apiCallMock } from "./functions/api";
 import { convertSeriesToOption } from "./functions/data";
