@@ -1,5 +1,7 @@
 .WidgetContainer {
   width: 100%;
+  max-height: 400px;
+  height: 100%;
 }
 
 .WidgetContainer__options {

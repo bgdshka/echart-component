@@ -54,7 +54,7 @@ function Widget() {
           <input value={intervalTime} onChange={handleChangeIntervalTime} />
         </label>
       </div>
-      <EchartsWrapper option={option} style={{ height: 400 }} />
+      <EchartsWrapper option={option} style={{ height: "100%" }} />
     </div>
   );
 }
