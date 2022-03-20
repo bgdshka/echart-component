@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-node@v2
 
     - name: Unit testing
-      uses: code-check: ./.github/actions/unit-and-shapshots.yml
+      uses: ./.github/actions/unit-and-shapshots.yml
 
     - name: Screenshots
-      uses: code-check: ./.github/actions/screenshots.yml
+      uses: ./.github/actions/screenshots.yml
