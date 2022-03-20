@@ -6,3 +6,5 @@ yarn test
 
 ## Run local screenshot tests
 yarn screenshot-test-local
+
+Деплой - https://echart-component.surge.sh/
