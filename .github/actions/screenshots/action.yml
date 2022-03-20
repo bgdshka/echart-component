@@ -7,4 +7,4 @@ runs:
 
     - name: Running tests
       shell: bash
-      run: yarn test:screenshot
+      run: yarn screenshot-test-local
