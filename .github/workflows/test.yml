@@ -11,14 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     
-    - name: Checkout
-      uses: actions/checkout@v2
+    # - name: Checkout
+    #   uses: actions/checkout@v2
 
-    - name: Setup node
-      uses: actions/setup-node@v2
+    # - name: Setup node
+    #   uses: actions/setup-node@v2
 
     - name: Unit testing
-      uses: bgdshka/echart-component/.github/actions/unit-and-shapshots.yml
+      uses: bgdshka/echart-component/.github/actions/unit-and-shapshots@master
 
     - name: Screenshots
-      uses: bgdshka/echart-component/.github/actions/screenshots.yml
+      uses: bgdshka/echart-component/.github/actions/screenshots@master
