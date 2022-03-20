@@ -1,4 +1,4 @@
-name: 'Echarts component setup infra'\
+name: 'Echarts component setup infra'
 
 runs:
   using: "composite"
