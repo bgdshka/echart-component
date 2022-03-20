@@ -23,7 +23,7 @@ ReactScreenshotTest.create("Widget bar chart screen")
       option={optionBarMock}
       type={"bar"}
       handleChangeType={() => {}}
-      intervalTime={2000}
+      intervalTime={1000}
       handleChangeIntervalTime={() => {}}
     />,
   )
