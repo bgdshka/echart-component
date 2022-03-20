@@ -1,0 +1,10 @@
+name: 'Echarts component unit and snapshot testing'
+description: 'Running unit and snapshot tests'
+
+runs:
+  using: "composite"
+  steps:
+
+    - name: Running tests
+      shell: bash
+      run: yarn test

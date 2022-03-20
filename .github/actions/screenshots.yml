@@ -1,0 +1,10 @@
+name: 'Echarts component screenshots'
+description: 'Running viteshot for components'
+
+runs:
+  using: "composite"
+  steps:
+
+    - name: Running tests
+      shell: bash
+      run: yarn test:screenshot
