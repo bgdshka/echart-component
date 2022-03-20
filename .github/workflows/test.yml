@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-node@v2
 
     - name: Unit testing
-      uses: ./.github/actions/unit-and-shapshots@master
+      uses: ../.github/actions/unit-and-shapshots@master
 
     - name: Screenshots
-      uses: ./.github/actions/screenshots@master
+      uses: ../.github/actions/screenshots@master
