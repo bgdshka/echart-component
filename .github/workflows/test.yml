@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-node@v2
 
     - name: Unit testing
-      uses: bgdshka/echart-component/.github/actions/unit-and-shapshots@master
+      uses: ./.github/actions/unit-and-shapshots@master
 
     - name: Screenshots
-      uses: bgdshka/echart-component/.github/actions/screenshots@master
+      uses: ./.github/actions/screenshots@master
