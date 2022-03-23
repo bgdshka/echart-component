@@ -20,7 +20,7 @@ function Widget({ option, type, handleChangeType, intervalTime, handleChangeInte
         </select>
         <label>
           Интервал обовления (мс):{" "}
-          <input value={intervalTime} onChange={handleChangeIntervalTime} />
+          <input value={intervalTime} onChange={handleChangeIntervalTime} type="number" />
         </label>
       </div>
       <EchartsWrapper option={option} style={{ height: "100%" }} />
